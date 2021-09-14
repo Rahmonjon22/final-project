@@ -4,9 +4,9 @@
   "description": "Online Dating App",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
-  "author": "Eldor Togaymurotov",
+  "author": "DCI GROUP",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",

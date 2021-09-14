@@ -43,7 +43,7 @@ app.use((req,res, next) => {
 });
 // load passport
 require('./passport/facebook');
-require('./passport/google');
+// require('./passport/google');
 require('./passport/local');
 // connect to mLab MongoDB
 mongoose.connect(Keys.MongoDB,{useNewUrlParser:true}).then(() => {
